@@ -1,0 +1,246 @@
+@media only screen and (max-width: 992px) {
+  li:hover {
+    color: rgb(255, 132, 0);
+    cursor: pointer;
+  }
+
+  nav > ol {
+    list-style: none;
+    color: #fff;
+  }
+
+  .button-close {
+    display: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .button-menu {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .navChild-sm {
+    overflow: hidden;
+    background-color: #0a0b27;
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    height: 0;
+    transition: height 500ms;
+  }
+
+  .sectionOne {
+    height: 500px;
+    min-width: 100%;
+    background-image: url("./img/sectionOneImg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sectionTwo {
+    min-width: 100%;
+    height: 1850px;
+  }
+
+  .sectionTwo > .childOne {
+    width: 100%;
+    height: 925px;
+    background-color: #520a76;
+  }
+
+  .sectionTwo > .childOne > .rotateImg {
+    width: 105px;
+    height: 330px;
+    transform: rotate(112deg);
+  }
+
+  .sectionTwo > .childOne > .rotateImg > img {
+    width: 105px;
+  }
+
+  .sectionTwo > .childOne > .textImg {
+    width: 305px;
+    height: 78px;
+    position: absolute;
+    z-index: 4;
+  }
+
+  .sectionTwo > .childOne > .textImg > img {
+    width: 305px;
+  }
+
+  .sectionTwo > .childTwo {
+    width: 100%;
+    height: 925px;
+    background-color: #fff;
+    color: #520a76;
+  }
+
+  .sectionTwo > .childTwo > .textContainer {
+    width: 500px;
+  }
+
+  .sectionTwo > .childTwo > .textContainer > h1 {
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.1;
+  }
+
+  .sectionTwo > .childTwo > .textContainer > p {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .sectionThree {
+    min-width: 100%;
+    height: 600px;
+    background-image: url("./img/sectionTwoImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  footer {
+    min-width: 100%;
+    height: 630px;
+    background-color: #ffffff;
+  }
+
+  footer > .containerOne {
+    width: 100%;
+  }
+
+  footer > .containerTwo {
+    width: 100%;
+    line-height: 0.8;
+  }
+
+  footer > .containerThree {
+    width: 100%;
+    line-height: 1;
+  }
+
+  footer > .containerThree > .icons > ul {
+    list-style: none;
+    width: 150px;
+  }
+
+  footer > .containerThree > .icons > ul > li > button {
+    background-color: #0a0b27;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .menuBar-closeBar {
+    display: none;
+  }
+
+  nav > ol {
+    list-style: none;
+    color: #fff;
+  }
+
+  .sectionOne {
+    min-width: 100%;
+    height: 100vh;
+    background-image: url("./img/sectionOneImg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .sectionTwo {
+    min-width: 100%;
+    height: 934px;
+  }
+
+  .rotateImg > img {
+    width: 165px;
+    height: 450px;
+  }
+
+  .textImg {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .childOne {
+    background-color: #520a76;
+  }
+
+  .childTwo > .textContainer {
+    width: 550px;
+  }
+
+  .childTwo > .textContainer > h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: #520a76;
+  }
+
+  .childTwo > .textContainer > p {
+    font-size: 1.4rem;
+    line-height: 1.2 !important;
+    margin-top: 20px;
+    color: #520a76;
+  }
+
+  footer {
+    background-color: #ffffff;
+  }
+
+  footer > .containerTwo > p {
+    line-height: 1;
+  }
+
+  footer > .containerThree {
+    line-height: 1;
+  }
+
+  footer > .containerThree > .icons > ul > li {
+    list-style: none;
+  }
+
+  footer > .containerThree > .icons > ul > li > button {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #0a0b27;
+    width: 30px;
+    height: 30px;
+  }
+
+  li:hover {
+    color: rgb(255, 132, 0);
+    cursor: pointer;
+  }
+}
